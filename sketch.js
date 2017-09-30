@@ -1,12 +1,12 @@
 function setup() {
   createCanvas(800,600);
-  
+
 }
 
 function draw() {
   
   background(220,220,220); 
-  
+ 
   strokeWeight (3);
   fill(30,70,100);
   line(400,100,400,400); // x1,y1,x2,y2 coordinates
@@ -65,6 +65,6 @@ function draw() {
   
   line(pmouseX-50,pmouseY,300,300);
   line(pmouseX+50,pmouseY,500,300);
-
+  //braccia
 
 }
