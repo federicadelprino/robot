@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+  text('hello');
   
   background(220,220,220); 
  
@@ -66,5 +67,16 @@ function draw() {
   line(pmouseX-50,pmouseY,300,300);
   line(pmouseX+50,pmouseY,500,300);
   //braccia
+  
+  push();
+  noStroke();
+  textSize(21);
+text("Hello!", 10, 150);
+fill(0, 102, 153);
+text("Finally I have arms and I can", 10, 180);
+text("say hi to everybody and dance.", 10, 210);
+fill(200,0,100);
+text("Just move your cursor!", 10, 240);
+pop();
 
 }
